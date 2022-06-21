@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HerculesApp</string>
+    <string name="what_part_of_the_body_needs_attention">What part of the body needs attention?</string>
+    <string name="specialization">Specialization?</string>
+    <string name="facilitybutton">facilityButton</string>
+    <string name="doctorbutton">doctorButton</string>
 </resources>
