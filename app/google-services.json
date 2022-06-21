@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "239414550008",
+    "project_id": "herculesapp-1655772505370",
+    "storage_bucket": "herculesapp-1655772505370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239414550008:android:8e489539c34fef723b4a0d",
+        "android_client_info": {
+          "package_name": "com.example.herculesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239414550008-gpc4q0g734oc4117go5i2gslir03vo34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.herculesapp",
+            "certificate_hash": "97d09b71a0e83c7c4025a6413b58d91b1f210a1f"
+          }
+        },
+        {
+          "client_id": "239414550008-dpguhekaljr0l8a9nq21qkufk1reaigo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Yqap4c8cdqbiQLiIxQbO6hrlQeo89L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239414550008-dpguhekaljr0l8a9nq21qkufk1reaigo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
