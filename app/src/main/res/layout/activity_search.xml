@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/doctorTog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/facilityTog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
@@ -59,33 +59,36 @@
         android:fontFamily="sans-serif-light"
         android:text="Choose a Service"
         android:textColor="#009688"
-        app:layout_constraintEnd_toStartOf="@+id/toggleButton2"
+        app:layout_constraintEnd_toStartOf="@+id/facilityTog"
         app:layout_constraintTop_toBottomOf="@+id/searchLb" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="101dp"
+        android:autofillHints=""
         android:ems="10"
+        android:fontFamily="sans-serif-light"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/specialization"
         android:textAlignment="center"
         android:textColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/doctorTog" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/body_part"
         android:layout_width="348dp"
         android:layout_height="48dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="33dp"
+        android:autofillHints=""
         android:ems="10"
+        android:fontFamily="sans-serif-light"
         android:inputType="textPersonName"
         android:text="@string/what_part_of_the_body_needs_attention"
         android:textAlignment="center"
@@ -93,22 +96,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/special" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
+        android:fontFamily="sans-serif-light"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="What City?"
         android:textAlignment="center"
         android:textColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/body_part" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="103dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="What Country?"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
